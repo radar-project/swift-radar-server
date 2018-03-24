@@ -1,0 +1,4 @@
+FROM swift:4.0
+WORKDIR /Radar
+COPY . .
+CMD swift build && .build/debug/Radar
